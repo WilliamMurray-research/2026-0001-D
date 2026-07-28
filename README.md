@@ -106,4 +106,4 @@ All future projects must conform to this framework.
 
 ---
 
-*Contributions off: however, you are welcome to copy and adapt*
+*Contributions off: however, you are welcome to copy and adapt, in accordance with the requirements of the licence*
