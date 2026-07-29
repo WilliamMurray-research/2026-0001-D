@@ -1,0 +1,259 @@
+# **Algorithm Name**  
+*(Insert descriptive, technical name here)*
+
+## **Abstract**
+A concise summary of:
+
+- the problem the algorithm solves  
+- the core idea  
+- the expected inputs/outputs  
+- the algorithm’s role within the system architecture  
+
+This section should be short, formal, and problem‑oriented.
+
+---
+
+## **1. Motivation**
+Explain **why** this algorithm exists.
+
+Include motivations such as:
+
+- efficiency  
+- deterministic behaviour  
+- auditability  
+- reproducibility  
+- heuristic generation  
+- structural invariants  
+- integration with telemetry, DSL, or rendering pipelines  
+
+Reference the project’s broader motivation surface in motivation.
+
+---
+
+## **2. Problem Definition**
+Define the problem precisely.
+
+### **2.1 Formal Problem Statement**
+A clear, unambiguous definition of the computational or symbolic task.
+
+### **2.2 Constraints**
+List:
+
+- computational constraints  
+- data constraints  
+- environmental constraints  
+- governance constraints  
+
+### **2.3 Requirements**
+Define:
+
+- functional requirements  
+- non‑functional requirements  
+- invariants  
+- correctness criteria  
+
+---
+
+## **3. Inputs and Outputs**
+
+### **3.1 Inputs**
+Describe all inputs:
+
+- types  
+- ranges  
+- schemas  
+- telemetry sources  
+- DSL structures  
+- configuration parameters  
+
+### **3.2 Outputs**
+Describe all outputs:
+
+- symbolic artefacts  
+- numeric results  
+- rendered artefacts  
+- logs  
+- state transitions  
+
+### **3.3 Preconditions**
+List all required conditions before execution.
+
+### **3.4 Postconditions**
+List all guaranteed conditions after execution.
+
+---
+
+## **4. Algorithm Description**
+
+### **4.1 High‑Level Overview**
+Explain the conceptual flow of the algorithm.
+
+### **4.2 Detailed Steps**
+Provide a step‑by‑step description of the algorithm’s behaviour.
+
+This section should be:
+
+- deterministic  
+- explicit  
+- free of ambiguity  
+- suitable for audit and reproduction  
+
+### **4.3 Pseudocode**
+Provide pseudocode in a deterministic style.
+
+Example:
+
+```
+function AlgorithmName(input):
+    validate(input)
+    state ← initialise_state()
+    for each element in input:
+        state ← transform(state, element)
+    return finalise(state)
+```
+
+### **4.4 Data Flow**
+Describe how data moves through the algorithm:
+
+- ingestion  
+- transformation  
+- propagation  
+- output  
+
+---
+
+## **5. Complexity Analysis**
+
+### **5.1 Time Complexity**
+Provide:
+
+- worst‑case  
+- average‑case  
+- best‑case  
+
+### **5.2 Space Complexity**
+Provide:
+
+- memory usage  
+- auxiliary storage  
+- caching behaviour  
+
+### **5.3 Performance Constraints**
+Describe:
+
+- bottlenecks  
+- scalability limits  
+- concurrency considerations  
+
+---
+
+## **6. Correctness and Validation**
+
+### **6.1 Correctness Argument**
+Explain why the algorithm is correct.
+
+### **6.2 Invariants**
+List invariants that must hold throughout execution.
+
+### **6.3 Validation Strategy**
+Describe:
+
+- schema validation  
+- semantic validation  
+- error handling  
+- fallback behaviour  
+
+### **6.4 Test Coverage**
+Reference tests in:
+
+`tests/`
+
+---
+
+## **7. Integration Points**
+
+### **7.1 Integration with Telemetry**
+Explain how the algorithm consumes telemetry.
+
+### **7.2 Integration with DSL**
+Explain how the algorithm:
+
+- consumes DSL  
+- produces DSL  
+- transforms symbolic structures  
+
+### **7.3 Integration with Rendering**
+Explain how the algorithm affects:
+
+- scene graphs  
+- overlays  
+- palettes  
+- animations  
+
+### **7.4 Integration with Governance**
+Explain how the algorithm interacts with:
+
+- logs  
+- versioning  
+- constraints  
+- operational records  
+
+---
+
+## **8. Failure Modes**
+
+### **8.1 Expected Failures**
+List predictable failure conditions.
+
+### **8.2 Unexpected Failures**
+Describe how the algorithm handles:
+
+- corrupted input  
+- missing telemetry  
+- invalid DSL  
+- configuration errors  
+
+### **8.3 Recovery Strategy**
+Describe:
+
+- fallback paths  
+- safe defaults  
+- graceful degradation  
+
+---
+
+## **9. Security and Integrity Considerations**
+
+### **9.1 Data Integrity**
+Explain how the algorithm preserves data integrity.
+
+### **9.2 Log Integrity**
+Explain how append‑only logs are maintained.
+
+### **9.3 Snapshot Integrity**
+Explain how outputs integrate with `versions/`.
+
+---
+
+## **10. Future Improvements**
+Describe planned enhancements:
+
+- new heuristics  
+- new symbolic models  
+- new optimisation strategies  
+- new telemetry sources  
+- new rendering modes  
+
+---
+
+## **Appendices**
+Optional:
+
+- proofs  
+- extended pseudocode  
+- diagrams  
+- glossary  
+- references  
+
+---
+
