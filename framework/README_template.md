@@ -25,49 +25,77 @@ The following structure is normative and must be preserved exactly:
 
 ```
 /
-├── docs/
-│   ├── research/                     # 
+├── docs/                                 
+│   ├── research/
 │   │   ├── whitepapers/
 │   │   ├── hypotheses/
 │   │   ├── proofs/
 │   │   └── algorithms/
 │   │
-│   ├── governance/                   # 
+│   ├── governance/
+│   │   # motivation, roles, constraints, architecture live here
 │   │
-│   ├── operations/                   # procurement, compute records, operational logs
+│   ├── operations/
 │   │   ├── procurement/
 │   │   ├── compute/
 │   │   └── records/
 │   │
-│   ├── motivation.md                 # project-specific governance doc
-│   ├── dsl-spec.md                   # project-specific research doc
-│   ├── architecture.md               # project-specific architecture doc
-│   ├── telemetry.md                  # project-specific research doc
-│   ├── rendering.md                  # project-specific research doc
-│   ├── roles.md                      # project-specific governance doc
-│   ├── constraints.md                # project-specific governance doc
-│   ├── versioning.md                 # project-specific governance doc
-│   ├── changelog-spec.md             # project-specific governance doc
-│   └── roadmap.md                    # project-specific roadmap
+│   ├── motivation.md
+│   ├── dsl-spec.md
+│   ├── architecture.md
+│   ├── telemetry.md
+│   ├── rendering.md
+│   ├── roles.md
+│   ├── constraints.md
+│   ├── versioning.md
+│   ├── changelog-spec.md
+│   └── roadmap.md
 │
-├── risk/
-│   ├── README.md                     # overview of risk domain
-│   ├── register.md                   # canonical risk register
-│   ├── taxonomy.md                   # risk classification system
+├── risk/                                 
+│   ├── README.md
+│   ├── register.md
+│   ├── taxonomy.md
 │   │
 │   ├── assessment/
-│   │   ├── methodology.md            # risk assessment methodology
-│   │   └── templates/                # reusable assessment templates
+│   │   ├── methodology.md
+│   │   └── templates/
 │   │
 │   ├── mitigations/
-│   │   ├── strategies.md             # mitigation strategies
-│   │   └── controls.md               # governance + operational controls
+│   │   ├── strategies.md
+│   │   └── controls.md
 │   │
 │   └── audit/
-│       ├── risk_log.md               # append-only risk log
-│       └── risk_snapshots/           # immutable risk snapshots
+│       ├── risk_log.md
+│       └── risk_snapshots/
 │
-├── src/
+├── security/                             
+│   ├── README.md
+│   ├── framework.md
+│   │
+│   ├── policies/
+│   │   ├── access_control.md
+│   │   ├── data_protection.md
+│   │   ├── cryptography.md
+│   │   ├── network_security.md
+│   │   ├── application_security.md
+│   │   └── operational_security.md
+│   │
+│   ├── threat_model/
+│   │   ├── methodology.md
+│   │   ├── adversary_classes.md
+│   │   ├── attack_surfaces.md
+│   │   └── scenarios/
+│   │
+│   ├── controls/
+│   │   ├── technical_controls.md
+│   │   ├── administrative_controls.md
+│   │   └── physical_controls.md
+│   │
+│   └── audit/
+│       ├── security_log.md
+│       └── security_snapshots/
+│
+├── src/                                   # implementation domain
 │   ├── telemetry/
 │   │   ├── *.py
 │   │   └── *.py
@@ -82,18 +110,19 @@ The following structure is normative and must be preserved exactly:
 │   ├── *.md
 │   └── *.md
 │
-├── versions/                         # immutable project snapshots
+├── versions/                              # immutable project snapshots
 │
-├── logs/
+├── logs/                                   # append-only audit logs
 │   ├── issues/
 │   │   └── postmortem.md
-│   ├── CHANGELOG.md                  # append-only changelog
-│   └── critique_history.log          # epistemic + structural critique log
+│   ├── CHANGELOG.md
+│   └── critique_history.log
 │
 ├── CONTRIBUTING.md
 ├── CODEOWNERS
 ├── README.md
 └── LICENSE
+
 
 
 │
