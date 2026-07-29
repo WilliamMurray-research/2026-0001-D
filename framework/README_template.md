@@ -123,12 +123,6 @@ The following structure is normative and must be preserved exactly:
 ├── README.md
 └── LICENSE
 
-
-
-│
-│   │   ├── *.md           
-│   │   └── *.md  
-
 ```
 
 ### **Directory Purpose References**  
