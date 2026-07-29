@@ -1,4 +1,4 @@
-# **README.md — Governance‑Grade Template**
+# **README.md — Template**
 
 ## **1. Project Identity**  
 **Project Title:**  
@@ -25,32 +25,68 @@ The following structure is normative and must be preserved exactly:
 
 ```
 /
+/
 ├── docs/
 │   ├── research/                     # whitepapers, hypotheses, proofs, algorithms
 │   │   ├── whitepapers/
 │   │   ├── hypotheses/
 │   │   ├── proofs/
 │   │   └── algorithms/
+│   │
 │   ├── governance/                   # motivation, roles, constraints, architecture
-│   ├── operations/                   # procurement, compute records, logs
-│   └── roadmap.md
+│   └── operations/                   # procurement, compute records, logs
+│
+│   ├── procurement/                  # project-specific procurement records
+│   │   ├── CCE-finance.ods
+│   │   └── CCE-procurement.odt
+│
+│   ├── records/                      # project-specific operational records
+│   │   ├── CCE-compute.ods
+│   │   └── CCE-log.odt
+│
+│   ├── motivation.md                 # project-specific governance docs
+│   ├── dsl-spec.md                   # project-specific research doc
+│   ├── architecture.md               # project-specific architecture doc
+│   ├── telemetry.md                  # project-specific research doc
+│   ├── rendering.md                  # project-specific research doc
+│   ├── roles.md                      # project-specific governance doc
+│   ├── constraints.md                # project-specific governance doc
+│   ├── versioning.md                 # project-specific governance doc
+│   ├── changelog-spec.md             # project-specific governance doc
+│   └── roadmap.md                    # project-specific roadmap
+│
+├── src/
+│   ├── telemetry/
+│   │   ├── *.py
+│   │   └── *.py
+│   ├── config/
+│   └── main.py
+│
+├── assets/
+│   ├── *.md
+│   └── *.md
+│
+├── tests/
+│   ├── *.md
+│   └── *.md
+│
+├── versions/
 │
 ├── logs/
 │   ├── issues/
-│   └── critique_history.log          # append‑only
-│
-├── assets/
-│
-├── versions/                         # immutable snapshots
-│
-├── config/
-│
-├── scripts/                          # reproducibility tooling (optional)
+│   │   └── postmortem.md
+│   ├── CHANGELOG.md
+│   └── critique_history.log
 │
 ├── CONTRIBUTING.md
 ├── CODEOWNERS
 ├── README.md
 └── LICENSE
+
+│
+│   │   ├── *.md           
+│   │   └── *.md  
+
 ```
 
 ### **Directory Purpose References**  
