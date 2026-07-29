@@ -1,6 +1,6 @@
 # **README.md**
 
-## **Universal Project Template Framework**  
+## **Project Template Framework**  
 **Licence: CC‑BY‑SA‑4.0**
 
 This repository defines the **canonical template framework** used across all projects. It contains multiple documents, specifications, and structural standards that together form a **complete operational scaffold**. Each project must instantiate this framework in full, preserving all directories, files, and structural invariants, even when individual branches contain no artefacts.
