@@ -1,0 +1,203 @@
+# **Proof Title**  
+*(Insert precise, formal title here)*
+
+## **Abstract**
+A concise summary of:
+
+- the statement being proven  
+- the domain of the proof (symbolic, mathematical, computational, architectural)  
+- the method of proof  
+- the significance of the result  
+
+This section should be short, formal, and unambiguous.
+
+---
+
+## **1. Statement of the Proposition**
+State the proposition, theorem, lemma, or claim being proven.
+
+### **1.1 Formal Statement**
+A precise, symbolic or mathematical formulation.
+
+### **1.2 Informal Interpretation**
+A plain‑language explanation of what the statement means.
+
+### **1.3 Domain Context**
+Describe the domain in which the statement operates:
+
+- symbolic reasoning  
+- telemetry transformation  
+- rendering pipeline  
+- epistemic convergence  
+- algorithmic behaviour  
+- governance invariants  
+
+---
+
+## **2. Definitions and Preliminaries**
+List all definitions required for the proof.
+
+### **2.1 Definitions**
+Include:
+
+- symbolic constructs  
+- mathematical objects  
+- DSL entities  
+- attributes  
+- relations  
+- events  
+
+### **2.2 Assumptions**
+List assumptions explicitly.
+
+### **2.3 Prior Results**
+Reference:
+
+- earlier lemmas  
+- known theorems  
+- established invariants  
+- architectural constraints  
+
+---
+
+## **3. Proof Strategy**
+Describe the method of proof.
+
+Examples:
+
+- direct proof  
+- proof by contradiction  
+- induction  
+- case analysis  
+- constructive proof  
+- rule‑based inference  
+- symbolic reduction  
+
+Explain **why** this strategy is appropriate.
+
+---
+
+## **4. Formal Proof**
+Provide the full proof in a deterministic, audit‑friendly structure.
+
+### **4.1 Step‑by‑Step Derivation**
+Each step should:
+
+- follow logically  
+- be justified  
+- reference definitions or prior results  
+- maintain invariants  
+
+### **4.2 Symbolic or Mathematical Derivation**
+Include:
+
+- equations  
+- symbolic transformations  
+- rule applications  
+- inference steps  
+
+### **4.3 Case Analysis (if applicable)**
+Break the proof into cases.
+
+### **4.4 Completion**
+Conclude the proof with a clear statement that the proposition is proven.
+
+---
+
+## **5. Computational or Algorithmic Proof (Optional)**
+If the proof involves computation:
+
+### **5.1 Algorithmic Behaviour**
+Explain how the algorithm supports the proof.
+
+### **5.2 Deterministic Execution**
+Show that:
+
+- identical inputs → identical outputs  
+- invariants hold  
+- no undefined behaviour occurs  
+
+### **5.3 Complexity Considerations**
+Explain how complexity affects correctness.
+
+---
+
+## **6. Telemetry or DSL‑Driven Proof (Optional)**
+If the proof involves symbolic or telemetry constructs:
+
+### **6.1 Mapping Rules**
+Explain how telemetry maps into symbolic constructs.
+
+### **6.2 Rule Engine Behaviour**
+Describe how rules enforce correctness.
+
+### **6.3 Rendering or Output Consistency**
+Explain how the proof ensures deterministic rendering or output.
+
+---
+
+## **7. Integrity and Governance Considerations**
+Explain how the proof aligns with governance constraints.
+
+### **7.1 Structural Invariants**
+Describe how the proof respects:
+
+- directory invariants  
+- naming invariants  
+- domain invariants  
+
+### **7.2 Log Integrity**
+Explain how append‑only logs support proof auditability.
+
+### **7.3 Versioning**
+Describe how proof artefacts integrate with `versions/`.
+
+---
+
+## **8. Limitations**
+Describe limitations of the proof.
+
+Examples:
+
+- domain restrictions  
+- assumptions that may not generalise  
+- symbolic ambiguities  
+- computational constraints  
+
+---
+
+## **9. Implications and Applications**
+Explain how the proven statement affects:
+
+- system architecture  
+- algorithms  
+- telemetry interpretation  
+- rendering behaviour  
+- governance rules  
+- future research  
+
+---
+
+## **10. Future Work**
+Describe follow‑up proofs or extensions.
+
+Examples:
+
+- generalisations  
+- stronger results  
+- alternative proof strategies  
+- integration with new symbolic models  
+
+---
+
+## **Appendices**
+Optional:
+
+- extended derivations  
+- diagrams  
+- tables  
+- glossary  
+- references  
+
+---
+
