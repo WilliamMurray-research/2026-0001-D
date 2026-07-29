@@ -36,14 +36,6 @@ The following structure is normative and must be preserved exactly:
 │   ├── governance/                   # motivation, roles, constraints, architecture
 │   └── operations/                   # procurement, compute records, logs
 │
-│   ├── procurement/                  # project-specific procurement records
-│   │   ├── CCE-finance.ods
-│   │   └── CCE-procurement.odt
-│
-│   ├── records/                      # project-specific operational records
-│   │   ├── CCE-compute.ods
-│   │   └── CCE-log.odt
-│
 │   ├── motivation.md                 # project-specific governance docs
 │   ├── dsl-spec.md                   # project-specific research doc
 │   ├── architecture.md               # project-specific architecture doc
