@@ -25,18 +25,21 @@ The following structure is normative and must be preserved exactly:
 
 ```
 /
-/
 ├── docs/
-│   ├── research/                     # whitepapers, hypotheses, proofs, algorithms
+│   ├── research/                     # 
 │   │   ├── whitepapers/
 │   │   ├── hypotheses/
 │   │   ├── proofs/
 │   │   └── algorithms/
 │   │
-│   ├── governance/                   # motivation, roles, constraints, architecture
-│   └── operations/                   # procurement, compute records, logs
-│
-│   ├── motivation.md                 # project-specific governance docs
+│   ├── governance/                   # 
+│   │
+│   ├── operations/                   # procurement, compute records, operational logs
+│   │   ├── procurement/
+│   │   ├── compute/
+│   │   └── records/
+│   │
+│   ├── motivation.md                 # project-specific governance doc
 │   ├── dsl-spec.md                   # project-specific research doc
 │   ├── architecture.md               # project-specific architecture doc
 │   ├── telemetry.md                  # project-specific research doc
@@ -46,6 +49,23 @@ The following structure is normative and must be preserved exactly:
 │   ├── versioning.md                 # project-specific governance doc
 │   ├── changelog-spec.md             # project-specific governance doc
 │   └── roadmap.md                    # project-specific roadmap
+│
+├── risk/
+│   ├── README.md                     # overview of risk domain
+│   ├── register.md                   # canonical risk register
+│   ├── taxonomy.md                   # risk classification system
+│   │
+│   ├── assessment/
+│   │   ├── methodology.md            # risk assessment methodology
+│   │   └── templates/                # reusable assessment templates
+│   │
+│   ├── mitigations/
+│   │   ├── strategies.md             # mitigation strategies
+│   │   └── controls.md               # governance + operational controls
+│   │
+│   └── audit/
+│       ├── risk_log.md               # append-only risk log
+│       └── risk_snapshots/           # immutable risk snapshots
 │
 ├── src/
 │   ├── telemetry/
@@ -62,18 +82,19 @@ The following structure is normative and must be preserved exactly:
 │   ├── *.md
 │   └── *.md
 │
-├── versions/
+├── versions/                         # immutable project snapshots
 │
 ├── logs/
 │   ├── issues/
 │   │   └── postmortem.md
-│   ├── CHANGELOG.md
-│   └── critique_history.log
+│   ├── CHANGELOG.md                  # append-only changelog
+│   └── critique_history.log          # epistemic + structural critique log
 │
 ├── CONTRIBUTING.md
 ├── CODEOWNERS
 ├── README.md
 └── LICENSE
+
 
 │
 │   │   ├── *.md           
