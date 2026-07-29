@@ -198,3 +198,61 @@ Any deviation must be justified, documented, and approved through the project’
 
 ---
 
+## **9. Proprietary Risk & Security Specifications**
+
+The **`risk/`** and **`security/`** domains contain proprietary governance artefacts that are **not intended for public release**.  
+These directories define project‑specific methodologies, controls, adversary models, and assurance frameworks that form part of the internal governance and operational posture of the system.
+
+### **Proprietary Status**
+The following content is **non‑public** and must not be distributed outside authorised channels:
+
+- risk assessment methodologies  
+- risk taxonomy and classification systems  
+- mitigation strategies and control frameworks  
+- security policies and assurance models  
+- adversary classes and threat modelling artefacts  
+- technical, administrative, and physical security controls  
+- risk and security audit logs  
+- risk and security snapshots  
+
+These artefacts represent internal governance logic and may expose sensitive operational details, architectural assumptions, or security postures.  
+They are therefore **excluded from public builds, published releases, and external documentation sets**.
+
+### **Location of Proprietary Artefacts**
+All proprietary risk and security materials must remain confined to:
+
+```
+risk/
+security/
+```
+
+These directories are part of the canonical scaffold and must be preserved, but their contents are **not** to be included in:
+
+- public releases  
+- external documentation bundles  
+- published archives  
+- open‑source distributions  
+
+Public‑facing builds may include **empty directory placeholders**, as structural emptiness is meaningful and must be retained.
+
+### **Release Policy**
+When preparing a public release:
+
+- retain the directory structure  
+- remove or redact proprietary content  
+- preserve empty directories to maintain structural invariants  
+- ensure no sensitive artefacts are included in `versions/` snapshots intended for publication  
+- ensure no proprietary logs are included in `logs/` bundles  
+
+### **Governance Integration**
+The proprietary risk and security domains remain fully integrated with:
+
+- **governance**  
+- **operations**  
+- **architecture**  
+- **versioning**  
+
+but their contents are **internal‑only** and governed by project‑specific confidentiality requirements.
+
+---
+
