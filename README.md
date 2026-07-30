@@ -46,30 +46,34 @@ Phase 2 transforms the framework from a static scaffold into a **hybrid symbolic
 
 ---
 
-## **2. Why This Framework Exists**
+## **2. Why This Framework Exists - ISO/IEC 15288‑Aligned Standardisation Justification**
 
-You’re right—that section should read more like a formal **standardisation rationale**, not a personal narrative.
+The Project Template Framework establishes a **uniform, governed, and repeatable structural baseline** for all projects in the ecosystem. Its purpose aligns with the principles of ISO/IEC 15288, which emphasise the need for consistent system life‑cycle processes, defined interfaces, and controlled artefact structures to ensure predictable behaviour across development, operation, and maintenance.
 
-Here’s a revised **Section 2 – Why This Framework Exists** written in the style of ISO/standards justifications:
+Standardising the repository structure provides the following ISO‑aligned benefits:
 
----
+- **Consistency of artefact organisation**  
+  Ensures that all projects follow a common directory schema and document placement model, supporting predictable navigation and reducing structural ambiguity.
 
-## 2. Rationale for Standardisation
+- **Repeatability of processes**  
+  A stable scaffold enables repeatable instantiation, verification, and maintenance activities across the system life cycle, consistent with ISO/IEC 15288 process discipline.
 
-The **Project Template Framework** exists to provide a **uniform, repeatable, and auditable project structure** across all repositories in the ecosystem. Its purpose is to:
+- **Improved maintainability and traceability**  
+  Uniform structures simplify long‑term maintenance, facilitate provenance tracking, and support auditability of artefacts and decisions.
 
-- **Reduce variability:** Minimise arbitrary differences in directory layout, document placement, and naming conventions that hinder comprehension and tooling.
-- **Enable interoperability:** Ensure that automation, analysis tools, and governance processes can operate on any project without bespoke adaptation.
-- **Improve maintainability:** Make long‑term maintenance easier by enforcing a predictable structure and clear separation of concerns.
-- **Support audit and provenance:** Provide a stable scaffold for tracking changes, versions, and compliance across time.
-- **Facilitate onboarding and reuse:** Allow future projects and collaborators (even if only hypothetical) to understand and reuse structures without re‑deriving conventions.
+- **Interoperability of tooling and automation**  
+  A consistent layout allows automated systems, validation tools, and generation pipelines to operate across projects without bespoke adaptation.
 
-In line with ISO‑style standardisation principles, this framework:
+- **Reduction of cognitive load**  
+  Developers and analysts interact with a predictable structure, reducing mental overhead associated with learning or re‑deriving project layouts.
 
-- Defines a **canonical directory tree** and required documents.  
-- Specifies **structural invariants** that must be preserved across all instantiations.  
-- Separates **public** and **proprietary** domains with explicit boundaries.  
-- Provides a basis for **conformity assessment** (Phase 2 automation and validation).  
+- **Increased operational efficiency**  
+  Standardisation eliminates redundant decision‑making about structure, enabling faster onboarding, clearer workflows, and more efficient execution of life‑cycle processes.
+
+- **Support for conformity assessment**  
+  A defined structural baseline enables automated and manual compliance checks, ensuring that projects adhere to required governance and quality criteria.
+
+By enforcing these structural invariants, the Project Template Framework provides a **system‑level standard** consistent with ISO/IEC 15288’s emphasis on disciplined process definition, controlled artefact management, and lifecycle‑wide consistency.
 
 Phase **v1.x** focuses on establishing and stabilising this standard.  
 Phase **v2.x** will introduce automation (Prolog + C++20) to **enforce** and **materialise** the standard programmatically.
