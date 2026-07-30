@@ -1,4 +1,4 @@
-# README.md — Universal Project Template Framework (v0.0.2)
+# README.md — Universal Project Template Framework (v0.0.3)
 
 ---
 
@@ -8,7 +8,7 @@
 *(Insert project name here)*
 
 **Template Origin:**
-This project is instantiated from the **Universal Project Template Framework (v0.0.2)**.
+This project is instantiated from the **Universal Project Template Framework (v0.0.3)**.
 The framework defines mandatory structural, operational, and governance invariants.
 All projects inheriting this scaffold must preserve its canonical structure in full.
 
@@ -285,7 +285,7 @@ published, or disclosed without explicit written authorisation.
 
 ## 10. Compliance Status
 
-This project conforms to the **Universal Project Template Framework (v2.1)**.
+This project conforms to the **Universal Project Template Framework (v0.0.3)**.
 
 Structural invariants must be preserved throughout the project's lifecycle. Any deviation must be justified, documented, and approved through the formal governance process defined in `docs/governance/constraints.md`.
 
