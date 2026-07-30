@@ -121,3 +121,62 @@ This framework is part of a long‑arc mastery programme.
 
 ---
 
+## **6. Licence**
+
+This repository uses a dual‑licensing model to balance two competing requirements:
+(1) the need for the framework itself to remain openly shareable, improvable, and structurally standardised; and
+(2) the need for template documents to be freely reusable in downstream projects without imposing ShareAlike inheritance.
+This separation ensures that the framework can evolve as a standard while allowing projects instantiated from it to adopt permissive licensing.
+
+### **6.1 Repository Licence — CC BY‑SA 4.0**
+
+The **Project Template Framework** itself — including its structure, governance rules, specifications, and non‑template documentation — is licensed under the **Creative Commons Attribution–ShareAlike 4.0 International Licence (CC BY‑SA 4.0)**.
+
+This licence is appropriate for:
+
+- structural standards  
+- governance specifications  
+- compliance rules  
+- directory schema definitions  
+- explanatory documentation  
+
+The ShareAlike requirement ensures that derivative frameworks preserve the same openness and structural guarantees.
+
+### **6.2 Template Documents — MIT Licence**
+
+All documents intended to be **copied into downstream projects** (e.g., canonical placeholders, template files, structural `.md` documents) are licensed under the **MIT Licence**.
+
+This separation is intentional:
+
+- MIT is permissive and allows downstream projects to reuse template documents without inheriting CC BY‑SA obligations.
+- CC BY‑SA remains appropriate for the framework itself, which must retain its governance integrity.
+
+Template documents include:
+
+- canonical directory placeholders  
+- standardised `.md` files  
+- structural governance stubs  
+- template artefacts used during project instantiation  
+
+These files contain explicit MIT headers where required.
+
+### **6.3 Proprietary Exclusion Boundary**
+
+As defined in the root `NOTICE` file:
+
+- `risk/`  
+- `security/`  
+
+are **not** covered by CC BY‑SA or MIT.  
+They are governed by project‑specific confidentiality constraints and must not be redistributed.
+
+### **6.4 Summary**
+
+| Component | Licence |
+|----------|---------|
+| Project Template Framework (structure, rules, specifications) | **CC BY‑SA 4.0** |
+| Template documents copied into projects | **MIT** |
+| Proprietary directories (`risk/`, `security/`) | **Excluded / Confidential** |
+
+---
+
