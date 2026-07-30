@@ -1,125 +1,112 @@
-# **Project README — v0.0.3**
+# **Project Template Framework — README (v0.0.3)**
 
-## **Project Identity**
+## **Overview**
 
-This project is an implementation built on top of the **Universal Project Template Framework**.  
-Its purpose is to establish a fully standardised, reproducible, governance‑aligned repository structure that can serve as the foundation for future automated architecture generation.
+The **Project Template Framework** is the canonical structural scaffold used across all research projects in this ecosystem. It defines the directory tree, governance rules, naming conventions, and operational invariants that every project must inherit in full.
 
-This README describes the **project itself**, not the underlying framework.
+This framework is written and maintained in a hybrid stack:
+
+- **C++20** — deterministic pointer‑driven materialisation  
+- **Prolog** — symbolic governance and ledger interpretation  
+- **YAML** — declarative ledger and template metadata  
+
+The framework exists to ensure that every project begins with a **correct**, **governed**, and **reproducible** structure.
 
 ---
 
-## **1. Project Purpose**
+## **1. Purpose**
 
-The project has two major phases:
+This repository has two major phases:
 
-### **Phase 1 — Standardisation (v1)**  
+### **Phase 1 — Standardisation (v1.x)**  
 The immediate goal is to:
 
-- standardise the directory tree  
-- populate mandatory documents  
+- define the canonical directory tree  
+- stabilise naming conventions  
 - establish governance surfaces  
-- define structural invariants  
+- populate mandatory documents  
+- lock structural invariants  
 - ensure full UPTF compliance  
-- stabilise naming conventions and placement rules  
 
-This phase is about **getting the structure right**, not implementing behaviour.
+Phase 1 is about **getting the structure right**.  
+No automation. No generation.  
+Just correctness, clarity, and reproducibility.
 
-The output of Phase 1 is a **stable, canonical repository tree** that can be used as the authoritative root for future automation.
-
-### **Phase 2 — Automation (v2)**  
-Once the structure is stable, the project will introduce:
+### **Phase 2 — Automation (v2.x)**  
+Once the structure is stable, the framework will introduce:
 
 - symbolic governance logic (Prolog)  
 - pointer‑driven materialisation (C++20)  
 - deterministic ledger‑based generation  
 - template dereferencing  
-- automated artefact synthesis  
 - structural validation tooling  
+- automated project instantiation  
 
-Phase 2 transforms the project from a static scaffold into a **hybrid symbolic–native architecture engine**.
-
----
-
-## **2. Current Status (v0.0.3)**
-
-The project is currently in **Phase 1 (v1)**.
-
-Completed so far:
-
-- canonical UPTF directory structure established  
-- `scripts/`, `tests/`, and `versions/` sub‑structures added  
-- compliance table added  
-- `NOTICE` and licensing boundaries defined  
-- versioning conventions established  
-- pointer‑driven architecture model formalised  
-- hybrid Prolog/C++20 execution model drafted  
-
-The repository is now structurally stable enough to support Phase 2 automation work.
+Phase 2 transforms the framework from a static scaffold into a **hybrid symbolic–native architecture engine**.
 
 ---
 
-## **3. Project Goals**
+## **2. Why This Framework Exists**
 
-### **Short‑Term Goals (v1)**  
-- finalise directory tree  
-- populate mandatory governance documents  
+For the first **15 months** of the research programme, all cognitive bandwidth was consumed by ideation — 150–200 active ideas, ~8,500 research files, and continuous conceptual generation across multiple domains.
+
+Implementation would have been premature; the ideas had not stabilised.
+
+Once the ideation flow slowed into coherent clusters, it became possible to:
+
+- learn to code  
+- define workflows  
+- establish governance  
+- structure the roadmap  
+- and build the machinery needed to support long‑arc research
+
+This framework is the result:  
+a **correct**, **governed**, **reproducible** foundation for all future projects.
+
+---
+
+## **3. Version Intent**
+
+### **v1.x — Standardisation**
+- lock the directory tree  
+- define governance surfaces  
 - stabilise naming conventions  
-- ensure structural invariants are fully enforced  
-- prepare the repository for automation
+- prepare for automation  
 
-### **Long‑Term Goals (v2)**  
-- implement deterministic ledger engine  
-- integrate Prolog symbolic layer  
-- implement C++20 pointer dereferencing layer  
-- establish canonical template registry  
-- automate architecture generation  
-- produce reproducible artefacts across environments  
+### **v2.x — Automation**
+- implement Prolog symbolic layer  
+- implement C++20 pointer‑driven materialisation  
+- integrate deterministic ledger engine  
+- produce reproducible architecture artefacts  
 
 ---
 
-## **4. Version Roadmap**
+## **4. Relationship to the Research Ecosystem**
 
-| Version | Description |
-|--------|-------------|
-| **v1.0.0** | Fully standardised UPTF‑compliant repository tree; all mandatory documents present; structure locked. |
-| **v2.0.0** | Introduction of automation layer: Prolog symbolic governance + C++20 pointer‑driven materialisation. |
-| **v3.0.0** | Extended automation, template registry expansion, deterministic rendering, full CI integration. |
+This framework supports the entire project roadmap, including:
 
----
+- **Digital Twin Wallpaper**  
+- **Conjecture Convergence Engine**  
+- **Knowledge Layer**  
+- **Local Git**  
+- **Hashimoto Simulations**  
+- **Metamorphism Systems**  
+- **Information Tensors**  
+- **AusRewrite‑T5**  
+- **Speculative Accuracy**  
+- **Scaling‑Precision Ideation Lab**  
+- **Hyperbolic Hashimoto Dynamics**  
 
-## **5. Relationship to UPTF**
-
-This project:
-
-- inherits the UPTF structure  
-- must preserve all structural invariants  
-- may extend the scaffold only by **addition**, never by modification  
-- treats the UPTF root README as the **governance constitution**  
-- uses this project README to define **project‑specific identity and goals**
-
----
-
-## **6. Intended Audience**
-
-This project is intended for:
-
-- developers working with deterministic architecture generation  
-- researchers exploring symbolic–native hybrid execution models  
-- governance teams requiring reproducible repository structures  
-- future automation tooling that will consume this scaffold  
+Every project instantiates this framework.  
+Every project inherits its invariants.  
+Every project becomes reproducible by design.
 
 ---
 
-## **7. Forward Plan**
+## **5. Contributions**
 
-The next steps are:
-
-- stabilise v1 structure  
-- prepare ledger specification  
-- define pointer registry schema  
-- implement Prolog → C++ interface  
-- begin v2 automation work  
+Contributions are disabled.  
+This framework is part of a long‑arc mastery programme.
 
 ---
 
