@@ -8,7 +8,7 @@
 *(Insert project name here)*
 
 **Template Origin:**
-This project is instantiated from the **Universal Project Template Framework (v2.1)**.
+This project is instantiated from the **Universal Project Template Framework (v0.0.2)**.
 The framework defines mandatory structural, operational, and governance invariants.
 All projects inheriting this scaffold must preserve its canonical structure in full.
 
