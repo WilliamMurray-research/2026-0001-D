@@ -3,7 +3,7 @@
 ## **Overview**
 
 The `scripts/validate/` directory contains all structural‑validation and compliance‑automation tooling for the project.  
-These tools enforce the canonical directory schema, generate required architectural artefacts, and ensure that the repository remains consistent with the Universal Project Template Framework (v2.1).
+These tools enforce the canonical directory schema, generate required architectural artefacts, and ensure that the repository remains consistent with the Universal Project Template Framework (v0.0.3).
 
 The primary component of this directory is the **deterministic ledger‑driven architecture generator**, implemented in Prolog.
 
