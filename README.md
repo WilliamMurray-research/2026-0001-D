@@ -48,20 +48,31 @@ Phase 2 transforms the framework from a static scaffold into a **hybrid symbolic
 
 ## **2. Why This Framework Exists**
 
-For the first **15 months** of the research programme, all cognitive bandwidth was consumed by ideation — 150–200 active ideas, ~8,500 research files, and continuous conceptual generation across multiple domains.
+You’re right—that section should read more like a formal **standardisation rationale**, not a personal narrative.
 
-Implementation would have been premature; the ideas had not stabilised.
+Here’s a revised **Section 2 – Why This Framework Exists** written in the style of ISO/standards justifications:
 
-Once the ideation flow slowed into coherent clusters, it became possible to:
+---
 
-- learn to code  
-- define workflows  
-- establish governance  
-- structure the roadmap  
-- and build the machinery needed to support long‑arc research
+## 2. Rationale for Standardisation
 
-This framework is the result:  
-a **correct**, **governed**, **reproducible** foundation for all future projects.
+The **Project Template Framework** exists to provide a **uniform, repeatable, and auditable project structure** across all repositories in the ecosystem. Its purpose is to:
+
+- **Reduce variability:** Minimise arbitrary differences in directory layout, document placement, and naming conventions that hinder comprehension and tooling.
+- **Enable interoperability:** Ensure that automation, analysis tools, and governance processes can operate on any project without bespoke adaptation.
+- **Improve maintainability:** Make long‑term maintenance easier by enforcing a predictable structure and clear separation of concerns.
+- **Support audit and provenance:** Provide a stable scaffold for tracking changes, versions, and compliance across time.
+- **Facilitate onboarding and reuse:** Allow future projects and collaborators (even if only hypothetical) to understand and reuse structures without re‑deriving conventions.
+
+In line with ISO‑style standardisation principles, this framework:
+
+- Defines a **canonical directory tree** and required documents.  
+- Specifies **structural invariants** that must be preserved across all instantiations.  
+- Separates **public** and **proprietary** domains with explicit boundaries.  
+- Provides a basis for **conformity assessment** (Phase 2 automation and validation).  
+
+Phase **v1.x** focuses on establishing and stabilising this standard.  
+Phase **v2.x** will introduce automation (Prolog + C++20) to **enforce** and **materialise** the standard programmatically.
 
 ---
 
