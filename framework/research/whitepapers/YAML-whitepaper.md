@@ -1,5 +1,10 @@
-# **Whitepaper: Deterministic Architecture Generation via Double‑Entry YAML Ledgers and Prolog Execution Loops**
+# Deterministic Architecture Generation via Double‑Entry YAML Ledgers and Prolog Execution Loops
 
+### Technical Whitepaper v1.0
+---
+#### William Murray
+#### 30 July 2026
+---
 ## **Abstract**
 
 This whitepaper defines a deterministic architecture‑generation mechanism based on a **double‑entry YAML ledger** embedded within a Markdown artefact. The ledger enumerates all required architectural files and tracks their completion state. A Prolog‑based execution engine consumes this ledger, identifies the next pending artefact, clears generation context, and produces the file deterministically. The ledger is then updated, ensuring full auditability and compliance with the Universal Project Template Framework (v2.1).
