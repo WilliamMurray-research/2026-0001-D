@@ -1,11 +1,17 @@
-Preliminary Whitepaper — Structural Emptiness and Null‑Space Artefacts in Deterministic Project Manifolds
+# Structural Emptiness and Null‑Space Artefacts in Deterministic Project Manifolds
 
-Abstract
+###Preliminary Whitepaper v0.0.1
+---
+#### William Murray
+#### 30 July 2026
+---
+
+## Abstract
 This whitepaper outlines a deterministic approach to representing structural emptiness within governed project manifolds. The method uses explicit null‑space artefacts to ensure that unpopulated domains are treated as meaningful states rather than incidental absences. The approach is compatible with the Universal Project Template Framework (UPTF v0.0.3) and preserves all structural invariants defined therein.
 
 ---
 
-1. Introduction
+## 1. Introduction
 In governed project structures, emptiness is not a void but a signal.  
 The Universal Project Template Framework (UPTF) treats empty directories as meaningful operational domains, requiring explicit artefacts to preserve them in version control.
 
@@ -13,7 +19,7 @@ This whitepaper describes a preliminary model for representing such emptiness us
 
 ---
 
-2. Motivation
+## 2. Motivation
 A deterministic project manifold benefits from:
 
 - predictable directory traversal  
@@ -26,7 +32,7 @@ This paper explores the optional addition of semantic null markers (null.md) for
 
 ---
 
-3. Structural Emptiness Under UPTF
+## 3. Structural Emptiness Under UPTF
 UPTF defines emptiness as a governed state:
 
 > “Structural emptiness is meaningful. Null directories represent unpopulated operational domains and must be retained in version control using explicit tracking placeholders (.gitkeep).”
@@ -46,7 +52,7 @@ This ensures:
 
 ---
 
-4. Semantic Null‑Space Artefacts
+## 4. Semantic Null‑Space Artefacts
 Some projects require more than structural emptiness.  
 They require semantic emptiness — a marker that indicates not only that a directory is empty, but why.
 
@@ -79,7 +85,7 @@ This approach:
 
 ---
 
-5. Directory Manifold as a Deterministic Object
+## 5. Directory Manifold as a Deterministic Object
 The project directory tree is treated as a manifold — a structured object whose nodes represent operational domains.
 
 Key properties:
@@ -93,7 +99,7 @@ This ensures that the manifold remains stable across time, tooling, and contribu
 
 ---
 
-6. Extension Pathways
+## 6. Extension Pathways
 UPTF permits extension only through additive operations:
 
 - adding new directories under existing branches  
@@ -105,7 +111,7 @@ Semantic null‑space artefacts fall within this permitted extension class.
 
 ---
 
-7. Future Work
+## 7. Future Work
 Potential areas for expansion include:
 
 - formalising a null‑state schema  
@@ -115,7 +121,7 @@ Potential areas for expansion include:
 
 ---
 
-8. Conclusion
+## 8. Conclusion
 Structural emptiness is a governed state within UPTF.  
 Semantic null‑space artefacts provide an optional, deterministic method for signalling the meaning of that emptiness without violating structural invariants. This preliminary whitepaper establishes the foundation for further refinement and formalisation.
 
