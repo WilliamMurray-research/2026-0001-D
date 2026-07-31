@@ -1,9 +1,10 @@
-# **Whitepaper: Emergence of a Pointer‑Driven Architecture Synthesis Model**
+# Emergence of a Pointer‑Driven Architecture Synthesis Model
+### Preliminary Whitepaper v0.0.1
 
 **Document Reference:** `TRIN-WP-2026-008`  
-**Author:** William Murray  
-**Date:** July 2026  
-**Compliance:** Universal Project Template Framework (UPTF v2.1)  
+---
+#### William Murray  
+#### 30 July 2026  
 
 ---
 
