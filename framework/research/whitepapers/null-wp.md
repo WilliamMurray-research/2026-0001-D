@@ -1,6 +1,6 @@
 # Structural Emptiness and Null‑Space Artefacts in Deterministic Project Manifolds
 
-###Preliminary Whitepaper v0.0.1
+### Preliminary Whitepaper v0.0.1
 ---
 #### William Murray
 #### 30 July 2026
