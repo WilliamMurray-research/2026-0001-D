@@ -1,4 +1,4 @@
-Document Reference: `2026-*-UPTF-wp` 
+Document Reference: `2026-002-UPTF-wp` 
 # Emergence of a Pointer‑Driven Architecture Synthesis Model
 ### Preliminary Whitepaper v0.0.1 
 ---
