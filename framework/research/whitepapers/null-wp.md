@@ -1,5 +1,5 @@
+Document Reference: `2026-003-UPTF-wp` 
 # Structural Emptiness and Null‑Space Artefacts in Deterministic Project Manifolds
-
 ### Preliminary Whitepaper v0.0.1
 ---
 #### William Murray
