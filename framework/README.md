@@ -137,6 +137,83 @@ The following structure is normative and must be preserved exactly:
 └── LICENSE                               # MIT Licence (public scope only — see §8)
 ```
 
+## **Application Subsystem Architecture (`src/`)**
+
+To support multi‑tier applications while preserving top‑level governance, risk, and architectural invariants, source implementation under `src/` must be partitioned by execution target. This ensures that user‑facing interfaces, core compute substrates, and shared operational modules remain structurally isolated while still conforming to the canonical repository schema.
+
+### **Topology Options**
+
+#### **Option A: Clean Monorepo Subtree (Recommended)**
+
+This topology nests `frontend/` and `backend/` inside `src/`.  
+It preserves the immutable top‑level directory structure while providing clear separation of application concerns.
+
+```text
+src/
+├── frontend/                   # UI / Client Application
+│   ├── src/                    # App source (components, views, state)
+│   ├── public/                 # Static web assets
+│   ├── package.json (or build) # Client-specific build configuration
+│   └── README.md
+├── backend/                    # Core Server / API Service
+│   ├── src/                    # Business logic, domain models
+│   ├── api/                    # Controllers, routes, RPC specs
+│   ├── db/                     # Persistence layer definitions & migrations
+│   └── README.md
+├── shared/                     # Shared types, RPC schemas, utilities
+│   ├── types/                  # Generated interfaces/DTOs
+│   └── constants/
+├── telemetry/                  # Instrumentations & metrics providers
+└── config/                     # Global runtime configurations
+```
+
+This structure is compliant with the extension policy:
+
+> “Projects may extend this scaffold only by **adding new directories under existing branches**.”
+
+No canonical directories are renamed or removed.
+
+---
+
+#### **Option B: Workspace / Multi‑App Structure**
+
+For architectures where frontend and backend operate as independent deployables or microservices, a workspace‑style layout may be used. In this topology, `src/` contains only shared or global modules, while application‑specific code resides under `apps/` and `packages/`.
+
+```text
+/
+├── apps/
+│   ├── web/                    # Frontend client service
+│   └── api/                    # Backend API service
+├── packages/                   # Shared local modules (UI kit, DB client)
+├── docs/
+├── architecture/
+...
+```
+
+This option is suitable for multi‑service deployments, polyglot stacks, or independently versioned application surfaces. It must still preserve all top‑level directories defined in the canonical template.
+
+---
+
+### **Architectural Alignment Requirements**
+
+To maintain consistency between implementation and formal architecture:
+
+- **C4 Diagram Synchronization**  
+  Update `architecture/system/containers.md` (C4 Level 2) to document the explicit boundary between the **Frontend Container** (e.g., SPA/SSR application) and the **Backend Container** (API service, worker processes, or orchestration layer).
+
+- **Test Isolation**  
+  Structure `tests/` to mirror application boundaries:  
+  - `tests/frontend/`  
+  - `tests/backend/`  
+  - `tests/e2e/`  
+  This ensures that test artefacts remain aligned with subsystem responsibilities and do not leak into `src/`.
+
+- **Compilation Pipelines**  
+  Maintain distinct, isolated execution scripts in `scripts/build/` to build, lint, and test client and server binaries independently.  
+  Each subsystem must have its own reproducible pipeline, consistent with the operational invariants defined in the template.
+
+---
+
 ### Directory Purpose References
 
 | Directory | Purpose |
