@@ -246,3 +246,4 @@ Structural invariants must be preserved throughout the project lifecycle.
 
 ---
 
+*Contributions are off*
