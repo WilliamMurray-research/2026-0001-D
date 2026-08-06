@@ -1,41 +1,65 @@
-# README.md — Universal Project Template Framework (v0.0.4)
+# README.md — Deterministic Documentation System  
+*Canonical Repository Governance & Phase‑Aligned Structural Specification*
 
 ---
 
-## 1. Project Identity
+## **1. Project Identity**
 
-**Project Title:**
+**Project Title:**  
 *(Insert project name here)*
 
-**Template Origin:**
-This project is instantiated from the **Universal Project Template Framework (v0.0.3)**.
-The framework defines mandatory structural, operational, and governance invariants.
-All projects inheriting this scaffold must preserve its canonical structure in full.
+**Governance Model:**  
+This repository is governed by the **Deterministic Documentation System (v4.4.0)**.  
+This system defines:
+
+- the **canonical phase structure** (–1 through 9)  
+- the **Attractor Kernel Layer** (`0.0.0‑AK`, `0.0.1‑AK`)  
+- the **Paradigm Layer** (`P‑2.9` → `P‑2.20`)  
+- the **Execution Engine Layer** (`E‑3A` → `E‑3G`)  
+- the **deterministic document taxonomy**  
+- the **global semantic attractor constraints** applied to all documents
+
+All repositories instantiated under this model must preserve the **phase‑aligned directory structure** and the **semantic invariants** defined by the Master Index.
 
 ---
 
-## 2. Governance Statement
+## **2. Governance Statement**
 
-This repository is governed by the structural and procedural standards defined in the canonical template framework. The directory schema, required files, and operational conventions constitute part of the project's governance model and **must not be altered** except where explicitly permitted.
+This repository is a **phase‑aligned deterministic documentation environment**.  
+The structure, naming, and placement of documents are governed by the Master Index v4.4.0.
 
-Structural emptiness is meaningful. Null directories represent unpopulated operational domains and must be retained in version control using explicit tracking placeholders (`.gitkeep`).
+Two principles define the governance model:
 
-This template is designed to serve as a **canonical reference for automated instantiation**. Build tooling should treat this structure as the authoritative source and derive project scaffolds from it directly, rather than maintaining independent copies.
+1. **Phase boundaries are immutable.**  
+   Documents must reside in the directory corresponding to their canonical phase.
+
+2. **Attractor Kernel constraints apply globally.**  
+   All documents across all phases must conform to the semantic surfaces defined by:  
+   - **0.0.0‑AK — Ideative Attractor Kernel**  
+   - **0.0.1‑AK — Semantic Attractor Kernel**
+
+Structural emptiness is meaningful.  
+Empty directories represent unpopulated semantic domains and must be retained using `.gitkeep`.
+
+The repository structure itself is part of the governance model and must not be altered except through formally approved extensions **within** the correct phase.
 
 ---
 
-## 3. Canonical Directory Structure
+## **3. Canonical Phase‑Aligned Directory Structure**
 
-The following structure is normative and must be preserved exactly:
+The following structure is **normative** and must be preserved exactly.  
+Each directory corresponds to a phase in the deterministic documentation system.
 
 ```
 /
-├── docs/                                 # Conceptual & narrative specifications
-│   ├── research/
-│   │   ├── whitepapers/
-│   │   ├── hypotheses/
-│   │   ├── proofs/
-│   │   └── algorithms/
+├── phase--1_conceptual_substrate/        # Raw ideation, hypotheses, proofs
+│   └── research/
+│       ├── whitepapers/
+│       ├── hypotheses/
+│       ├── proofs/
+│       └── algorithms/
+
+├── phase0_ideation_foundational/         # Foundational analysis, worldview, constraints
 │   ├── governance/
 │   │   ├── motivation.md
 │   │   ├── roles.md
@@ -44,327 +68,181 @@ The following structure is normative and must be preserved exactly:
 │       ├── procurement/
 │       ├── compute/
 │       └── records/
-│
-├── architecture/                         # Formal technical layout & system designs
-│   ├── system/                           # C4 Model layout
-│   │   ├── context.md                    # C4 Level 1
-│   │   ├── containers.md                 # C4 Level 2
-│   │   ├── components.md                 # C4 Level 3
-│   │   └── code.md                       # C4 Level 4 (optional)
+
+├── phase1_architecture/                  # System, data, API, security architecture
+│   ├── system/
 │   ├── data/
-│   │   ├── models.md                     # Schemas, invariants
-│   │   ├── flows.md                      # Pipelines, telemetry paths
-│   │   └── storage.md                    # Persistence, immutability rules
 │   ├── interfaces/
-│   │   ├── api.md                        # External surface
-│   │   ├── dsl.md                        # DSL specifications
-│   │   └── rendering.md                  # Deterministic rendering rules
-│   └── roadmap/
-│       ├── evolution.md
-│       └── versioning.md
-│
-├── risk/                                 # [PROPRIETARY] Internal risk management
-│   ├── .gitkeep
-│   ├── README.md
-│   ├── register.md
-│   ├── taxonomy.md
-│   ├── assessment/
-│   │   ├── methodology.md
-│   │   └── templates/
-│   ├── mitigations/
-│   │   ├── strategies.md
-│   │   └── controls.md
-│   └── audit/
-│       ├── risk_log.md
-│       └── risk_snapshots/
-│
-├── security/                             # [PROPRIETARY] Security policies & models
-│   ├── .gitkeep
-│   ├── README.md
-│   ├── framework.md
-│   ├── policies/
-│   │   ├── access_control.md
-│   │   ├── data_protection.md
-│   │   ├── cryptography.md
-│   │   ├── network_security.md
-│   │   ├── application_security.md
-│   │   └── operational_security.md
-│   ├── threat_model/
-│   │   ├── methodology.md
-│   │   ├── adversary_classes.md
-│   │   ├── attack_surfaces.md
-│   │   └── scenarios/
-│   ├── controls/
-│   │   ├── technical_controls.md
-│   │   ├── administrative_controls.md
-│   │   └── physical_controls.md
-│   └── audit/
-│       ├── security_log.md
-│       └── security_snapshots/
-│
-├── src/                                  # Source implementation code
-│   ├── telemetry/
-│   ├── config/
-│   └── main                              # Language-agnostic entry point placeholder
-│
-├── scripts/                              # Automation & operational scripts
-│   ├── build/                            # Build and compilation scripts
-│   ├── release/                          # Release preparation and packaging
-│   ├── validate/                         # Structural and compliance validation
-│   └── env/                              # Environment setup and teardown
-│
-├── tests/                                # Functional & unit test suites
-│   ├── unit/
-│   ├── integration/
-│   └── fixtures/
-│
-├── assets/                               # Static media, schemas, static resources
-│
-├── versions/                             # Immutable project snapshots
-│   └── README.md                         # Snapshot naming convention (see §7)
-│
-├── logs/                                 # Append-only audit logs
-│   ├── issues/
-│   │   └── postmortem.md
-│   ├── CHANGELOG.md
-│   └── critique_history.log
-│
-├── .gitignore                            # Version control exclusion rules
+│   └── security_architecture/
+
+├── phase2_engineering_paradigm/          # Component design, configuration, paradigm layer
+│   ├── component_design/
+│   ├── configuration/
+│   └── environment/
+
+├── phase3_code_generation/               # Code skeletons, contracts, logic injection
+│   ├── src/
+│   ├── scripts/
+│   │   ├── build/
+│   │   ├── validate/
+│   │   └── tooling/
+│   └── tests/
+│       ├── unit/
+│       ├── integration/
+│       └── fixtures/
+
+├── phase4_execution/                     # Runtime, observability, deployment
+│   ├── scripts/
+│   │   └── release/
+│   └── env/
+│       └── runtime/
+
+├── phase5_operations_support/            # Infrastructure, monitoring, incident response
+│   ├── risk_operations/
+│   ├── security_operations/
+│   └── logs/
+
+├── phase6_knowledge_transfer/            # Onboarding, user guides, admin docs
+│   ├── onboarding/
+│   ├── user_docs/
+│   └── admin_docs/
+
+├── phase7_training_certification/        # Curriculum, materials, exams, KB
+│   ├── curriculum/
+│   ├── materials/
+│   ├── exams/
+│   └── knowledge_base/
+
+├── phase8_governance/                    # Compliance, audit, governance charter
+│   ├── compliance/
+│   ├── audit/
+│   ├── governance_charter/
+│   └── vendor_policy/
+
+├── phase9_lifecycle_data_governance/     # Lifecycle, evolution, retirement, data policy
+│   ├── lifecycle/
+│   ├── evolution/
+│   ├── retirement/
+│   └── data_policy/
+
+├── assets/                               # Cross-phase static resources
+├── versions/                             # Immutable snapshots
+├── logs/                                  # Append-only operational logs
+├── .gitignore
 ├── CONTRIBUTING.md
 ├── CODEOWNERS
-├── NOTICE                                # Licence boundary declaration (see §8)
+├── NOTICE
 ├── README.md
-└── LICENSE                               # MIT Licence (public scope only — see §8)
+└── LICENSE
 ```
 
-## **Application Subsystem Architecture (`src/`)**
+---
 
-To support multi‑tier applications while preserving top‑level governance, risk, and architectural invariants, source implementation under `src/` must be partitioned by execution target. This ensures that user‑facing interfaces, core compute substrates, and shared operational modules remain structurally isolated while still conforming to the canonical repository schema.
+## **4. Structural Invariants**
 
-### **Topology Options**
+The deterministic documentation system imposes the following invariants:
 
-#### **Option A: Clean Monorepo Subtree (Recommended)**
-
-This topology nests `frontend/` and `backend/` inside `src/`.  
-It preserves the immutable top‑level directory structure while providing clear separation of application concerns.
-
-```text
-src/
-├── frontend/                   # UI / Client Application
-│   ├── src/                    # App source (components, views, state)
-│   ├── public/                 # Static web assets
-│   ├── package.json (or build) # Client-specific build configuration
-│   └── README.md
-├── backend/                    # Core Server / API Service
-│   ├── src/                    # Business logic, domain models
-│   ├── api/                    # Controllers, routes, RPC specs
-│   ├── db/                     # Persistence layer definitions & migrations
-│   └── README.md
-├── shared/                     # Shared types, RPC schemas, utilities
-│   ├── types/                  # Generated interfaces/DTOs
-│   └── constants/
-├── telemetry/                  # Instrumentations & metrics providers
-└── config/                     # Global runtime configurations
-```
-
-This structure is compliant with the extension policy:
-
-> “Projects may extend this scaffold only by **adding new directories under existing branches**.”
-
-No canonical directories are renamed or removed.
+- Phase directories are **immutable** and must not be renamed or removed.  
+- Documents must reside in their canonical phase according to the Master Index.  
+- Attractor Kernel constraints apply to **all** documents across **all** phases.  
+- Empty directories must contain `.gitkeep`.  
+- Append‑only logs must never be rewritten.  
+- Snapshots in `versions/` are immutable and must follow the naming convention.  
+- Extensions may only occur **within** the correct phase.  
+- No document may cross phase boundaries without formal governance approval.
 
 ---
 
-#### **Option B: Workspace / Multi‑App Structure**
+## **5. Operational Usage Requirements**
 
-For architectures where frontend and backend operate as independent deployables or microservices, a workspace‑style layout may be used. In this topology, `src/` contains only shared or global modules, while application‑specific code resides under `apps/` and `packages/`.
+To maintain compliance:
 
-```text
-/
-├── apps/
-│   ├── web/                    # Frontend client service
-│   └── api/                    # Backend API service
-├── packages/                   # Shared local modules (UI kit, DB client)
-├── docs/
-├── architecture/
-...
-```
-
-This option is suitable for multi‑service deployments, polyglot stacks, or independently versioned application surfaces. It must still preserve all top‑level directories defined in the canonical template.
+- Populate documents according to their phase.  
+- Maintain semantic consistency with the Attractor Kernel.  
+- Ensure engineering artefacts conform to the Paradigm Layer (`P‑2.9` → `P‑2.20`).  
+- Ensure runtime artefacts conform to the Execution Engine (`E‑3A` → `E‑3G`).  
+- Maintain append‑only logs under Phase 5.  
+- Maintain lifecycle records under Phase 9.  
+- Maintain governance constraints under Phase 8.  
+- Maintain architecture under Phase 1.  
+- Maintain code generation outputs under Phase 3.
 
 ---
 
-### **Architectural Alignment Requirements**
-
-To maintain consistency between implementation and formal architecture:
-
-- **C4 Diagram Synchronization**  
-  Update `architecture/system/containers.md` (C4 Level 2) to document the explicit boundary between the **Frontend Container** (e.g., SPA/SSR application) and the **Backend Container** (API service, worker processes, or orchestration layer).
-
-- **Test Isolation**  
-  Structure `tests/` to mirror application boundaries:  
-  - `tests/frontend/`  
-  - `tests/backend/`  
-  - `tests/e2e/`  
-  This ensures that test artefacts remain aligned with subsystem responsibilities and do not leak into `src/`.
-
-- **Compilation Pipelines**  
-  Maintain distinct, isolated execution scripts in `scripts/build/` to build, lint, and test client and server binaries independently.  
-  Each subsystem must have its own reproducible pipeline, consistent with the operational invariants defined in the template.
-
----
-
-### Directory Purpose References
-
-| Directory | Purpose |
-|---|---|
-| `docs/` | Narrative specifications, research, operational requirements, high-level governance |
-| `architecture/` | Formal C4 system structures, data models, interface definitions, evolutionary roadmaps |
-| `risk/` | Internal risk registers, taxonomy, assessment frameworks, and mitigations *(proprietary)* |
-| `security/` | Threat models, security control frameworks, and audit records *(proprietary)* |
-| `src/` | Implementation code; language and entry point are project-specific |
-| `scripts/` | Tooling for build, validation, release, and environment automation |
-| `tests/` | Unit, integration, and fixture artefacts |
-| `logs/` | Historical, append-only operational records and execution traces |
-| `versions/` | Immutable snapshot archives for auditability and tag verification |
-
----
-
-## 4. Structural Invariants
-
-All projects must adhere to the following invariants:
-
-- All directories defined in the schema are mandatory.
-- Directory names are immutable.
-- Top-level tracking files must exist, even if blank.
-- Empty directories must contain a `.gitkeep` file to ensure they are tracked by version control.
-- Append-only logs must never be rewritten or force-pushed over.
-- Immutable snapshots must be stored in `versions/` following the convention defined in `versions/README.md`.
-- The scaffold may be extended only by **adding** new branches, never by removing or renaming existing ones.
-- The structure itself is part of the project's governance and must be treated as such.
-- `src/` entry point filename and extension are determined at instantiation time and must be recorded in `architecture/system/context.md`.
-
----
-
-## 5. Operational Usage Requirements
-
-To maintain compliance with the framework:
-
-- Populate templates as the project evolves.
-- Leave unused branches empty — emptiness is an explicit signal, not an omission.
-- Use `logs/` for historical, append-only tracking.
-- Use `versions/` for archival snapshots, named per the convention in `versions/README.md`.
-- Maintain governance documents in `docs/governance/`.
-- Maintain research artefacts in `docs/research/`.
-- Maintain operational artefacts in `docs/operations/`.
-- Store reproducible tool scripts under `scripts/` in the appropriate sub-directory.
-- All test artefacts belong under `tests/`; no test files should reside in `src/`.
-
----
-
-## 6. Extension Policy
+## **6. Extension Policy**
 
 Projects may extend this scaffold only by:
 
-- adding new directories under existing branches
-- adding new documents or source modules
-- adding new operational logs
-- adding new execution scripts
+- adding new directories **inside the correct phase**  
+- adding new documents within phase boundaries  
+- adding new logs (append‑only)  
+- adding new scripts under Phase 3 or Phase 4
 
 Projects may **not**:
 
-- rename directories
-- remove directories
-- relocate directories
-- delete required top-level files
-- rewrite append-only logs
-- alter the canonical structure
+- rename phase directories  
+- remove phase directories  
+- relocate documents across phases  
+- rewrite append‑only logs  
+- alter the canonical phase structure
 
 ---
 
-## 7. Snapshot Convention (`versions/`)
+## **7. Snapshot Convention (`versions/`)**
 
-Snapshots in `versions/` must follow this naming convention to be considered valid immutable records:
+Snapshots must follow:
 
 ```
 versions/
 └── v{MAJOR}.{MINOR}.{PATCH}_{YYYY-MM-DD}/
-    ├── snapshot.tar.gz       # Compressed archive of repo state at that tag
-    └── manifest.md           # SHA-256 checksums and provenance notes
+    ├── snapshot.tar.gz
+    └── manifest.md
 ```
 
-Snapshots must be created at every release tag. They must not be modified after creation. The `manifest.md` must include the corresponding Git tag and commit hash.
+The manifest must include:
+
+- SHA‑256 checksums  
+- provenance notes  
+- corresponding Git tag  
+- commit hash
+
+Snapshots are immutable.
 
 ---
 
-## 8. Licence & Confidentiality Dual-Bound
+## **8. Licence & Confidentiality**
 
-### Codebase Licensing
+### **MIT Licence Scope**
+The public portions of the repository are licensed under MIT.
 
-The non-proprietary codebase, infrastructure scripts, and standard documentation are licensed under the **MIT Licence** (see `LICENSE`).
+### **Proprietary Scope**
+The following directories contain confidential, non‑public materials:
 
-### Proprietary Exclusion Boundary
+- `phase5_operations_support/risk_operations/`  
+- `phase5_operations_support/security_operations/`  
+- `phase8_governance/`  
 
-The `risk/` and `security/` directories contain confidential, non-public governance and operational posture specifications. **The MIT Licence explicitly excludes these directories and their contents.**
+These directories are **excluded** from the MIT Licence.
 
-The `NOTICE` file at the repository root states this boundary in plain terms and must be preserved in all distributions. It is the authoritative declaration of scope for both human readers and automated tooling.
+The `NOTICE` file defines this boundary and must be preserved.
 
-### `.gitignore` Enforcement
-
-The following rules must appear in `.gitignore` to prevent proprietary content leaking into public commits while retaining directory structure:
-
-```gitignore
-# Exclude proprietary contents; retain structure markers and READMEs
-risk/*
-!risk/.gitkeep
-!risk/README.md
-
-security/*
-!security/.gitkeep
-!security/README.md
-```
-
-### Pre-commit Hook (Recommended)
-
-To prevent accidental push of proprietary content before `.gitignore` is applied, projects should install a pre-commit hook that blocks commits touching `risk/` or `security/` paths beyond `.gitkeep` and `README.md`. A reference hook is provided in `scripts/validate/`.
-
-### Release Policy
-
-When preparing a public release or external distribution:
-
-- Retain the full directory structure using `.gitkeep` files.
-- Omit or sanitise all proprietary risk logs, security models, and strategy details.
-- Ensure no sensitive internal logs are included in published `versions/` snapshots or `logs/` distributions.
-- Verify `NOTICE` is included in the distribution root.
+### **`.gitignore` Enforcement**
+Proprietary content must be excluded from public commits while preserving structure.
 
 ---
 
-## 9. NOTICE File
+## **9. Compliance Status**
 
-The `NOTICE` file must contain, at minimum:
+This repository conforms to the:
 
-```
-This repository includes software licensed under the MIT Licence.
-See LICENSE for terms.
+- **Deterministic Documentation System (v4.4.0)**  
+- **Attractor Kernel Layer**  
+- **Paradigm Layer (P‑2.9 → P‑2.20)**  
+- **Execution Engine Layer (E‑3A → E‑3G)**  
+- **Phase Structure (–1 → 9)**  
+- **Master Index & Phase Structure v4.4.0**
 
-The following directories are NOT covered by the MIT Licence and are
-subject to project-specific confidentiality and intellectual property
-constraints:
-
-  risk/
-  security/
-
-These directories and their contents must not be redistributed,
-published, or disclosed without explicit written authorisation.
-```
-
----
-
-## 10. Compliance Status
-
-This project conforms to the **Universal Project Template Framework (v0.0.3)**.
-
-Structural invariants must be preserved throughout the project's lifecycle. Any deviation must be justified, documented, and approved through the formal governance process defined in `docs/governance/constraints.md`.
+Structural invariants must be preserved throughout the project lifecycle.
 
 ---
 
