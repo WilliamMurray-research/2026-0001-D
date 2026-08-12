@@ -1,5 +1,6 @@
-Below is an *all‑in‑one* walk‑through of the Universal Project Template Framework (UPTF) scaffold you’ve pulled into your repo.  
-I’ll keep it plain and pragmatic – think of this as a quick “cheat‑sheet” that tells you exactly where each file lives, why it exists, and how to stay compliant with the framework’s governance rules.
+Below is an *all‑in‑one* walk‑through of the Universal Project Template Framework (UPTF) scaffold.  
+
+
 
 ---
 
