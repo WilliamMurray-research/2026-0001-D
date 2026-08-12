@@ -1,4 +1,4 @@
-Below is an *all‑in‑one* walk‑through of the Universal Project Template Framework (UPTF) scaffold.  
+## Walk Through 
 
 
 
