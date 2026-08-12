@@ -510,3 +510,13 @@ Version **v0.0.3** establishes a mathematically sound category-theoretic and she
 2. Tennison, B. R. *Sheaf Theory*. Cambridge University Press, 1975.
 3. Spivak, M. *A Comprehensive Introduction to Differential Geometry*, Vol. 1. Publish or Perish, 1999.
 4. UPTF Architecture Specification, v0.0.1–v0.0.2, 2026.
+
+---
+
+| **Date** | **Version** | **Key Changes** |
+| --- | --- | --- |
+| 2026‑07‑01 | v0.0.1 | Initial informal specification; discrete index category; basic chart functor defined. |
+| 2026‑07‑10 | v0.0.2 | Added repository category; introduced syntactic functor; identified naturality triviality and overlap issues. |
+| 2026‑08‑12 | v0.0.3 | Major rewrite: fibered chart category over $\\mathsf{Open}(M)$; overlap index category; full syntactic category; formal encoding natural transformation; existence/obstruction/uniqueness/consistency theorems; sheaf‑theoretic extension; Čech cohomology bug detection; full $S^2$ worked example. |
+
+---
