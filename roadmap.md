@@ -1,9 +1,4 @@
-Below is a **ready‑to‑copy “road‑map”** that fits the Universal Project Template Framework (UPTF).  
-It follows the same structure that lives in `docs/roadmap.md` but is written as a **high‑level action plan** for you to drop into the repo and start executing.  
-
----
-
-## 📅  UPTF Road‑Map (v0.0.4)
+## UPTF Road‑Map (v0.0.4)
 
 > **Goal** – Keep the scaffold *intact* while filling in every required file, wiring the build & test pipelines, and publishing immutable snapshots.
 
