@@ -316,7 +316,7 @@ This is essential for:
 
 The Universal Project Template Framework provides a deterministic, extensible, and audit‑ready scaffold for all projects. It enforces structural invariants, supports reproducible reasoning, and enables efficient project initiation and maintenance. Its superset domain philosophy allows heterogeneous projects to coexist under a unified governance model without sacrificing flexibility.
 
-UPTF is not merely a template — it is a **structural governance system**, a **documentation substrate**, and an **epistemic stabiliser** for complex technical ecosystems.
+UPTF is a **structural governance system**, a **documentation substrate**, and an **epistemic stabiliser** for complex technical ecosystems.
 
 ---
 
