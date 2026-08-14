@@ -18,7 +18,7 @@ Systems Architect
 
 Status: Draft  
 
-Scope: Defines naming, classification, and registry rules  
+Scope: Defines the canonical project‑level scaffold used across the ecosystem, including the required directory tree, governance surfaces, structural invariants, and lifecycle phases that every project must inherit. Establishes the baseline structure for reproducible, governed, and ISO‑aligned project instantiation.
 Primary Model / Scheme: 2026 Naming & Directory Model  
 
 ---
@@ -155,9 +155,9 @@ This repository uses a dual‑licensing model to balance two competing requireme
 (2) the need for template documents to be freely reusable in downstream projects without imposing ShareAlike inheritance.
 This separation ensures that the framework can evolve as a standard while allowing projects instantiated from it to adopt permissive licensing.
 
-### **6.1 Repository Licence — CC BY‑SA 4.0**
+### **6.1 Repository Licence — CC0-1.0**
 
-The **Project Template Framework** itself — including its structure, governance rules, specifications, and non‑template documentation — is licensed under the **Creative Commons Attribution–ShareAlike 4.0 International Licence (CC BY‑SA 4.0)**.
+The **Project Template Framework** itself — including its structure, governance rules, specifications, and non‑template documentation — is licensed under the **Creative Commons 1.0 Universal Licence (CC0-1.0)**.
 
 This licence is appropriate for:
 
@@ -167,7 +167,7 @@ This licence is appropriate for:
 - directory schema definitions  
 - explanatory documentation  
 
-The ShareAlike requirement ensures that derivative frameworks preserve the same openness and structural guarantees.
+The CC requirement ensures that derivative frameworks preserve the same openness and structural guarantees.
 
 ### **6.2 Template Documents — MIT Licence**
 
@@ -176,7 +176,7 @@ All documents intended to be **copied into downstream projects** (e.g., canonica
 This separation is intentional:
 
 - MIT is permissive and allows downstream projects to reuse template documents without inheriting CC BY‑SA obligations.
-- CC BY‑SA remains appropriate for the framework itself, which must retain its governance integrity.
+- CC0-1.0 remains appropriate for the framework itself, which must retain its governance integrity.
 
 Template documents include:
 
@@ -194,14 +194,14 @@ As defined in the root `NOTICE` file:
 - `risk/`  
 - `security/`  
 
-are **not** covered by CC BY‑SA or MIT.  
+are **not** covered by CC0-1.0 or MIT.  
 They are governed by project‑specific confidentiality constraints and must not be redistributed.
 
 ### **6.4 Summary**
 
 | Component | Licence |
 |----------|---------|
-| Project Template Framework (structure, rules, specifications) | **CC BY‑SA 4.0** |
+| Project Template Framework (structure, rules, specifications) | **CC0-1.0** |
 | Template documents copied into projects | **MIT** |
 | Proprietary directories (`risk/`, `security/`) | **Excluded / Confidential** |
 
