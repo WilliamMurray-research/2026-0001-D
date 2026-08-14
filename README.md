@@ -27,7 +27,7 @@ Primary Model / Scheme: 2026 Naming & Directory Model
 
 The **Project Template Framework** is the canonical structural scaffold used across all research projects in this ecosystem. It defines the directory tree, governance rules, naming conventions, and operational invariants that every project must inherit in full.
 
-This framework is written and maintained in a hybrid stack:
+This framework will be written and maintained in a hybrid stack:
 
 - **C++20** — deterministic pointer‑driven materialisation  
 - **Prolog** — symbolic governance and ledger interpretation  
