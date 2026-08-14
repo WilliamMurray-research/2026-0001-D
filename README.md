@@ -207,4 +207,3 @@ They are governed by project‑specific confidentiality constraints and must not
 
 ---
 
-*Contributions are off*
