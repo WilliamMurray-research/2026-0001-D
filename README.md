@@ -1,4 +1,27 @@
-# **Project Template Framework — README (v0.0.4)**
+`2026-0001-D-read-001.md`  
+
+---
+
+CLASSIFICATION: D  
+
+Document Reference: `2026-0001-D-read-001`  
+# Universal Project Template Framework 
+### Project Readme 
+
+Type: read  
+Classification: D  
+Version: 2.0
+
+William Murray  
+Systems Architect  
+14 August 2026  
+
+Status: Draft  
+
+Scope: Defines naming, classification, and registry rules  
+Primary Model / Scheme: 2026 Naming & Directory Model  
+
+---
 
 ## **Overview**
 
@@ -116,7 +139,7 @@ Every project instantiates this framework.
 Every project inherits its invariants.  
 Every project becomes reproducible by design.
 
----
+--- 
 
 ## **5. Contributions**
 
