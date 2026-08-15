@@ -1,0 +1,49 @@
+# Project Readme template
+
+---
+
+**Scope**
+> Brief statement of what the project covers, its boundaries, and its purpose — what it is, what it isn't, and why it exists. Include intended audience and any explicit out-of-scope areas.
+
+**Primary Model / Scheme**
+> The core architectural pattern, data model, or design paradigm the project is organised around. One or two sentences — name the pattern and state what role it plays.
+
+**Overview / Description**
+> A short paragraph explaining what the project does, how it works at a high level, and why it exists. Should be readable in 30 seconds and answer: *what is this, and why should I care?*
+
+**Table of Contents** *(optional, for longer READMEs)*
+> Include when the document exceeds ~5 sections or would benefit from navigation. Link to all major headings.
+
+**Features**
+> A concise list of what the system does. Capabilities, not implementation details. Omit if covered adequately by Overview.
+
+**Project Structure**
+> Annotated file tree showing the layout of the repository. Include brief descriptions of key files and directories.
+
+**How It Works**
+> The core pipeline or logic explained in plain language. Step-by-step if the system is sequential. Subsections for major components if complex.
+
+**Installation / Getting Started**
+> Prerequisites, dependencies, environment setup, and any one-time configuration needed to get the project running.
+
+**Usage**
+> How to run it. Commands, scripts, expected output. Code snippets where helpful. For personal projects, operational notes and reminders are sufficient.
+
+**Configuration**
+> All configurable options — config files, environment variables, flags. Schema, defaults, and what each field controls.
+
+**API Reference / Documentation** *(if applicable)*
+> For libraries or systems with a defined interface — key functions, parameters, return values, and usage examples.
+
+**Roadmap**
+> Planned features, known gaps, and future directions. Can be a simple checklist.
+
+**License**
+> License name and a link to the full text.
+
+---
+
+
+
+---
+
