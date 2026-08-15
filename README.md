@@ -1,33 +1,33 @@
-`2026-0001-D-read-001.md`
+`2026-0001-D-read-001.md`  
 
 ---
 
-**CLASSIFICATION**: D
+**CLASSIFICATION**: D  
 
-**Document Reference**: `2026-0001-D-read-001`
-# Universal Project Template Framework
-### Project Readme
+**Document Reference**: `2026-0001-D-read-001`  
+# Universal Project Template Framework  
+### Project Readme  
+  
+**Type**: read  
+**Version**: 2.1  
+  
+William Murray    
+Systems Architect    
+14 August 2026    
+  
+**Status**: Draft  
+  
+**Scope**: Defines the canonical project‑level scaffold used across the ecosystem, including the required directory tree, governance surfaces, structural invariants, and lifecycle phases that every project must inherit. Establishes the baseline structure for reproducible, governed, and ISO‑aligned project instantiation.  
+  
+**Primary Model / Scheme**: 2026 Naming & Directory Model  
+  
+---   
 
-**Type**: read
-**Version**: 2.0
+## Overview  
 
-William Murray
-Systems Architect
-14 August 2026
+The **Universal Project Template Framework** is the canonical structural scaffold used across all projects in this ecosystem. It defines the directory tree, governance rules, naming conventions, and operational invariants that every project must inherit in full.  
 
-**Status**: Draft
-
-**Scope**: Defines the canonical project‑level scaffold used across the ecosystem, including the required directory tree, governance surfaces, structural invariants, and lifecycle phases that every project must inherit. Establishes the baseline structure for reproducible, governed, and ISO‑aligned project instantiation.
-
-**Primary Model / Scheme**: 2026 Naming & Directory Model
-
----
-
-## Overview
-
-The **Universal Project Template Framework** is the canonical structural scaffold used across all projects in this ecosystem. It defines the directory tree, governance rules, naming conventions, and operational invariants that every project must inherit in full.
-
-The framework exists to ensure that every project begins with a **correct**, **governed**, and **reproducible** structure.
+The framework exists to ensure that every project begins with a **correct**, **governed**, and **reproducible** structure.  
 
 ---
 
