@@ -2,28 +2,29 @@
 
 ---
 
-CLASSIFICATION: D  
+**CLASSIFICATION**: D  
 
-Document Reference: `2026-0001-D-read-001`  
+**Document Reference**: `2026-0001-D-read-001`  
 # Universal Project Template Framework 
 ### Project Readme 
 
-Type: read  
-Classification: D  
-Version: 2.0
+**Type**: read  
+**Classification**: D  
+**Version**: 2.0
 
 William Murray  
 Systems Architect  
 14 August 2026  
 
-Status: Draft  
+**Status**: Draft  
 
-Scope: Defines the canonical project‑level scaffold used across the ecosystem, including the required directory tree, governance surfaces, structural invariants, and lifecycle phases that every project must inherit. Establishes the baseline structure for reproducible, governed, and ISO‑aligned project instantiation.  
-Primary Model / Scheme: 2026 Naming & Directory Model  
+**Scope**: Defines the canonical project‑level scaffold used across the ecosystem, including the required directory tree, governance surfaces, structural invariants, and lifecycle phases that every project must inherit. Establishes the baseline structure for reproducible, governed, and ISO‑aligned project instantiation.  
+
+**Primary Model / Scheme**: 2026 Naming & Directory Model  
 
 ---
 
-## **Overview**
+## Overview
 
 The **Project Template Framework** is the canonical structural scaffold used across all research projects in this ecosystem. It defines the directory tree, governance rules, naming conventions, and operational invariants that every project must inherit in full.
 
