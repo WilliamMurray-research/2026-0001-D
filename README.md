@@ -9,7 +9,6 @@
 ### Project Readme 
 
 **Type**: read  
-**Classification**: D  
 **Version**: 2.0
 
 William Murray  
