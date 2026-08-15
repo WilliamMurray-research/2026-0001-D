@@ -1,0 +1,53 @@
+# Hypothesis Readme template
+
+---
+
+**Scope**
+> Brief statement of what the experiment covers, its boundaries, and its purpose — what is being tested, at what scale, and what it is explicitly not trying to do.
+
+**Primary Model / Scheme**
+> The core experimental protocol or verification scheme — defines the interaction model, acceptance criteria, evaluation rules, and the formal substrate the experiment operates within.
+
+**Overview / Description**
+> A short paragraph explaining the experiment: what system is being built, what models or components are involved, and what question it is trying to answer.
+
+**Motivation**
+> Why this experiment is worth running. The problem with the status quo and what gap this addresses.
+
+**Hypothesis**
+> A clear, falsifiable statement of what the experiment expects to find, and the mechanism by which it expects to find it.
+
+**Architecture**
+> The structure of the system under test — components, stages, data flow, and fallback behaviour.
+
+**Acceptance Rules / Criteria** *(if applicable)*
+> The formal rules governing what constitutes a valid result, acceptance threshold, or verification pass within the experiment.
+
+**Experiment Goals**
+> What the experiment is trying to demonstrate or measure. Concrete and bounded.
+
+**Non-Goals**
+> Explicit statement of what this experiment is not trying to do. Keeps scope honest.
+
+**Planned Experiments**
+> The specific runs, ablations, or conditions to be tested.
+
+**Project Structure**
+> Annotated file tree.
+
+**Usage / Running**
+> How to execute the pipeline or reproduce the experiment.
+
+**Configuration** *(if applicable)*
+> Tunable parameters, thresholds, flags.
+
+**Results** *(populated as experiments complete)*
+> Findings, comparisons, and observations. Can start empty.
+
+**Roadmap**
+> Next experiments, open questions, future directions.
+
+**License**
+
+---
+
