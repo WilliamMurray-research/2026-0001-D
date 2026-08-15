@@ -1,7 +1,3 @@
-Here's the redrafted document:
-
----
-
 `2026-0001-D-read-001.md`
 
 ---
@@ -27,20 +23,6 @@ Systems Architect
 
 ---
 
-Here's a draft author's note you can drop into Section 2:
-
----
-
-> **Author's Note — Standards Alignment**
->
-> The justification above references ISO/IEC 15288 as the primary alignment standard. As this framework matures, additional standards warrant consideration. The ISO 8000 series (Data Quality) is a likely candidate — particularly ISO 8000‑1 (concepts and vocabulary) and ISO 8000‑61 (data quality management) — given the framework's emphasis on artefact integrity and provenance. The ISO 9000 series (Quality Management Systems) may also apply, particularly ISO 9001, where process repeatability and conformity assessment are concerns. Further alignment with ISO/IEC 12207 (Software Lifecycle Processes) is worth exploring as the automation phase matures. This note will be expanded and formalised as specific standards are confirmed and mapped to framework obligations.
-
----
-
-Deliberately hedged — it signals intent without overclaiming alignment you haven't verified yet. Want me to adjust the tone or specificity?
-
----
-
 ## Overview
 
 The **Universal Project Template Framework** is the canonical structural scaffold used across all projects in this ecosystem. It defines the directory tree, governance rules, naming conventions, and operational invariants that every project must inherit in full.
@@ -60,6 +42,10 @@ Establish and lock the canonical directory tree, naming conventions, governance 
 Once the structure is stable, introduce symbolic governance, pointer‑driven materialisation, deterministic ledger‑based generation, template dereferencing, and structural validation tooling. Phase 2 transforms the framework from a static scaffold into a hybrid symbolic–native architecture engine.
 
 ---
+
+> **Author's Note — Standards Alignment**
+>
+> The justification above references ISO/IEC 15288 as the primary alignment standard. As this framework matures, additional standards warrant consideration. The ISO 8000 series (Data Quality) is a likely candidate — particularly ISO 8000‑1 (concepts and vocabulary) and ISO 8000‑61 (data quality management) — given the framework's emphasis on artefact integrity and provenance. The ISO 9000 series (Quality Management Systems) may also apply, particularly ISO 9001, where process repeatability and conformity assessment are concerns. Further alignment with ISO/IEC 12207 (Software Lifecycle Processes) is worth exploring as the automation phase matures. This note will be expanded and formalised as specific standards are confirmed and mapped to framework obligations.
 
 ## 2. Why This Framework Exists
 
