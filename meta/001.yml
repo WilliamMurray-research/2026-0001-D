@@ -1,0 +1,50 @@
+---
+identity:
+  reference: "2026-0001-D-tmp-002"
+  year: 2026
+  sequence: 0001
+  class: "D"
+  type: "tmp"
+  index: 002
+
+classification:
+  level: "D"
+  status: "Draft"
+  version: "0.9"
+
+title: "[Title]"
+
+domain:
+  primary: "Governance"
+  secondary: []
+
+author:
+  name: "William Murray"
+  role: "Systems Architect"
+  date: "[Date]"
+
+scope: >
+  Brief statement of what the project covers, its boundaries, and its purpose —
+  what it is, what it isn't, and why it exists. Include intended audience and
+  any explicit out-of-scope areas.
+
+inheritance:
+  mode: "strict"   # strict | loose | partial | override
+
+primary_model:
+  reference: "2026-0001-D-tmp-003"
+  url: "https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/003.md"
+  type: "template"
+  version: "0.9"
+
+links:
+  related: []
+  children: []
+  supersedes: null
+  superseded_by: null
+
+governance:
+  review_cycle: "annual"
+  custodial_domain: "Governance"
+  authority: "Systems Architect"
+---
