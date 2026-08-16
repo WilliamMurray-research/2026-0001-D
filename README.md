@@ -12,7 +12,7 @@
 **Version**: 2.1  
   
 William Murray    
-Systems Architect    
+Research Architect    
 14 August 2026    
   
 **Status**: Draft  
