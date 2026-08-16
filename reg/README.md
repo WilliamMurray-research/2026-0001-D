@@ -25,6 +25,13 @@ Research Architect
 
 ## Directory Contents
 
+### README
+
+| **Document Ref** | **Version** | **Comments** | **Description** |
+| :--- | :--- | :--- | :--- |
+| [2026-0001-D-read-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/README.md) | 1.0 | Nil | Repository README |
+
+
 ### Templates  
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
