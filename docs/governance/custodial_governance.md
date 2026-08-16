@@ -54,8 +54,7 @@ The custodian does **not** optimise for external metrics, social feedback, or po
 ### **3.1 Mandatory Adherence**
 
 All work must strictly adhere to the **Standards Framework**  
-**→ 2026‑0001‑D Standards Framework [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2FWilliamMurray-research%2F2026-0001-D")**  
-including:
+**→ 2026‑0001‑D Standards Framework 
 
 - directory schema  
 - naming conventions  
