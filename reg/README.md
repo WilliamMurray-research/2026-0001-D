@@ -36,6 +36,7 @@ Research Architect
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
+| [2026-0001-D-tmp-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/000.md) | 1.0 | Nil | Templates Asset Registry |
 | [2026-0001-D-tmp-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/001.md) | 0.8 | **Further work for automation** | Template for Project Asset Registry |
 | [2026-0001-D-tmp-002](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/002.md) | 0.8 | **Further work for automation** | Template for Project README |
 | [2026-0001-D-tmp-003](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/003.md) | 0.9 | **Desciption below header - YAML? sidecare YAML?** | Template for Header |
@@ -44,7 +45,6 @@ Research Architect
 | [2026-0001-D-tmp-006](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/006.md) | 0.8 | **Further work for automation** | Template for Hypothesis README |
 | [2026-0001-D-tmp-007](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/007.md) | 0.8 | **Further work for automation** | Template for Algorithm |
 | [2026-0001-D-tmp-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/008.md) | 0.8 | **Further work for automation** | Template for Proof |
-| *(reserved)* | — | *(future template)* | Placeholder |
 | *(reserved)* | — | *(future template)* | Placeholder |
 
 
