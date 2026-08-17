@@ -25,12 +25,17 @@ Research Architect
 
 ## Directory Contents
 
-### Repository Asset Registry  
+### Repository README  
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
 | [2026-0001-D-read-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/README.md) | 1.0 | Nil | Repository README |
 
+### Repository Asset Registry  
+
+| **Document Ref** | **Version** | **Comments** | **Description** |
+| :--- | :--- | :--- | :--- |
+| [2026-0001-D-reg-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/reg/000.md) | 1.0 | Nil | Repository README |
 
 ### Templates  
 
