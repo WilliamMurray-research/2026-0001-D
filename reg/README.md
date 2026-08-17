@@ -29,13 +29,13 @@ Research Architect
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
-| [2026-0001-D-read-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/README.md) | 1.0 | **This document** | Repository README |
+| [2026-0001-D-read-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/README.md) | 1.0 | Nil | Repository README |
 
 ### Repository Asset Registry  
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
-| [2026-0001-D-reg-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/reg/README.md) | 1.0 | Nil | Repository README |
+| [2026-0001-D-reg-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/reg/README.md) | 1.0 | **This document** | Repository README |
 
 ### Templates  
 
