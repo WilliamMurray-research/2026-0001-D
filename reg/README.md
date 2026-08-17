@@ -35,7 +35,7 @@ Research Architect
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
-| [2026-0001-D-reg-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/reg/000.md) | 1.0 | Nil | Repository README |
+| [2026-0001-D-reg-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/reg/README.md) | 1.0 | Nil | Repository README |
 
 ### Templates  
 
