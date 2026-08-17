@@ -1,10 +1,10 @@
-`2026-0001-D-specs-001.md`  
+`2026-0001-D-reg-001.md`  
 
 ---
 
 **CLASSIFICATION**: D  
 
-**Document Reference**: `2026-0001-D-specs-001`  
+**Document Reference**: `2026-0001-D-reg-001`  
 # Specs Asset Registry  
 ### Governance  
 
@@ -27,7 +27,11 @@ Research Architect
 
 | **Document Ref** | **Version** | **Title** | **Description** |
 | :--- | :--- | :--- | :--- |
-| [](https://github.com/WilliamMurray-research/2026...) |  |  |  |
+| [2026-0001-spec-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/specs/001.md) | v3.1 | Document Naming and Directory Identification | Specification |
+|  |  |  | Specification |
+|  |  |  | Specification |
+|  |  |  | Specification |
+|  |  |  | Specification |
 
 ---
 
