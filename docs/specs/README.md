@@ -5,7 +5,7 @@
 **CLASSIFICATION**: D  
 
 **Document Reference**: `2026-0001-D-reg-001`  
-# Specifications Templates Asset Registry  
+# Specifications Asset Registry  
 ### Governance  
 
 **Type**: Asset Registry    
