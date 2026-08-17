@@ -36,7 +36,6 @@ Research Architect
 | [2026-0001-D-tmp-007](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/007.md) | 0.1 | Algorithm - Template | Template |
 | [2026-0001-D-tmp-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/008.md) | 0.1 | Proof - Template | Template |
 | *(reserved)* | — | *(future template)* | Placeholder |
-| *(reserved)* | — | *(future template)* | Placeholder |
 
 ---
 
