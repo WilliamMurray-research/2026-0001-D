@@ -44,6 +44,8 @@ Research Architect
 | [2026-0001-D-tmp-006](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/006.md) | 0.8 | **Further work for automation** | Template for Hypothesis README |
 | [2026-0001-D-tmp-007](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/007.md) | 0.8 | **Further work for automation** | Template for Algorithm |
 | [2026-0001-D-tmp-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/008.md) | 0.8 | **Further work for automation** | Template for Proof |
+| *(reserved)* | — | *(future template)* | Placeholder |
+| *(reserved)* | — | *(future template)* | Placeholder |
 
 
 
