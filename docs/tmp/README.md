@@ -9,13 +9,13 @@
 ### Governance  
 
 **Type**: Asset Registry     
-**Version**: 0.1       
+**Version**: 1.0         
 
 William Murray  
 Research Architect  
 17 August 2026 
 
-**Status**: Draft     
+**Status**: Stable       
 
 **Scope**: This registry contains a record of all digital assets within the `templates` subdirectory of the Universal Project Template Framework repository.    
 
