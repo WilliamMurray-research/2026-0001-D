@@ -33,6 +33,8 @@ Research Architect
 
 ### Repository Asset Registry  
 
+/reg
+
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
 | [2026-0001-D-reg-000](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/reg/README.md) | 1.0 | **This document** | Repository README |
@@ -41,9 +43,11 @@ Research Architect
 
 ### /docs/operations  
 
-### /docs/specs
+### Specifications
+/docs/specs
 
-### /docs/tmp    
+### Templates
+/docs/tmp    
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
@@ -58,11 +62,13 @@ Research Architect
 | [2026-0001-D-tmp-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/008.md) | 0.8 | **Further work for automation** | Template for Proof |
 | *(reserved)* | — | *(future template)* | Placeholder |
 
-### /docs/wp
+### Whitepapers
+/docs/wp  
 
 
 
-### /meta
+### Metadata/meta
+
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
