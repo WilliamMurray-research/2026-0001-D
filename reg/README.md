@@ -13,7 +13,7 @@
 
 William Murray  
 Research Architect  
-16 August 2026   
+17 August 2026   
 
 **Status**: Stable     
 
@@ -25,7 +25,7 @@ Research Architect
 
 ## Directory Contents
 
-### README
+### Repository Asset Registry  
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
