@@ -17,7 +17,7 @@ Research Architect
 
 **Status**: Draft     
 
-**Scope**: This registry contains a record of all digital assets within the specifications sub-directory.    
+**Scope**: This registry contains a record of all digital assets within the `specifications` subdirectory of the Universal Project Template Framework repository.    
 
 **Primary Model / Scheme**: [2026-0001-D-tmp-001](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/001.md)  
 
