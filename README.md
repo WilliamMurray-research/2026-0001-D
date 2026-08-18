@@ -6,7 +6,7 @@
 
 **Document Reference**: `2026-0001-D-read-000`  
 # Universal Project Template Framework  
-### Project Readme  
+### Governance  
   
 **Version**: 0.9   
   
@@ -20,7 +20,12 @@ Research Architect
   
 **Primary Model / Scheme**: [2026-0001-D-tmp-002](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/002.md)    
   
----   
+<div align="center">
+
+<h2>README</h2> 
+
+</div>
+
 
 ## Overview  
 
