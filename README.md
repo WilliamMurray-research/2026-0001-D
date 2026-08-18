@@ -1,10 +1,10 @@
-`2026-0001-D-read-001.md`  
+`2026-0001-D/README.md`  
 
 ---
 
 **CLASSIFICATION**: D  
 
-**Document Reference**: `2026-0001-D-read-001`  
+**Document Reference**: `2026-0001-D-read-000`  
 # Universal Project Template Framework  
 ### Project Readme  
   
