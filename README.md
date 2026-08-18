@@ -19,6 +19,8 @@ Research Architect
 **Scope**: Defines the canonical project‑level scaffold used across the ecosystem, including the required directory tree, governance surfaces, structural invariants, and lifecycle phases that every project must inherit. Establishes the baseline structure for reproducible, governed, and ISO‑aligned project instantiation.  
   
 **Primary Model / Scheme**: [2026-0001-D-tmp-002](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/002.md)    
+
+---
   
 <div align="center">
 
@@ -26,6 +28,7 @@ Research Architect
 
 </div>
 
+---
 
 ## Overview  
 
