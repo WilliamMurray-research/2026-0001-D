@@ -1,10 +1,10 @@
-`2026-0001-D-reg-001.md`  
+`2026-0001-D/reg/README.md`  
 
 ---
 
 **CLASSIFICATION**: D  
 
-**Document Reference**: `2026-0001-D-reg-001`  
+**Document Reference**: `2026-0001-D-reg-000`  
 # Repository Asset Registry
 ### Governance  
 
