@@ -35,7 +35,7 @@ Research Architect
 | [2026-0001-D-tmp-006](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/006.md) | 0.1 | Hypothesis README - Template | Template |
 | [2026-0001-D-tmp-007](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/007.md) | 0.1 | Algorithm - Template | Template |
 | [2026-0001-D-tmp-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/008.md) | 0.1 | Proof - Template | Template |
-|   |   | Specification - Template |   |
+| [2026-0001-D-tmp-009](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/009.md) | 0.1 | Specification - Template | Template |
 
 ---
 
