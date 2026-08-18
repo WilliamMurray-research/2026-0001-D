@@ -1,10 +1,10 @@
-`2026-0001-D-tmp-000.md`  
+`2026-0001-D-reg-000.md`  
 
 ---
 
 **CLASSIFICATION**: D  
 
-**Document Reference**: `2026-0001-D-tmp-000`  
+**Document Reference**: `2026-0001-D-reg-000`  
 # Templates Asset Registry  
 ### Governance  
 
