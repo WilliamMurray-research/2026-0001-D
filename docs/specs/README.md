@@ -1,4 +1,4 @@
-`2026-0001-D-specs-000.md`  
+`2026-0001-D/docs/specs/README.md`  
 
 ---
 
@@ -7,8 +7,7 @@
 **Document Reference**: `2026-0001-D-specs-000`  
 # Specifications Asset Registry  
 ### Governance  
-
-**Type**: Asset Registry    
+   
 **Version**: 0.1        
 
 William Murray  
