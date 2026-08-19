@@ -38,7 +38,7 @@ Research Architect
 | [2026-0001-D-tmpl-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmpl/008.md) | 0.1 | Proof - Template | Template |
 | [2026-0001-D-tmpl-009](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmpl/009.md) | 0.1 | Specification - Template | Template |
 | [2026-0001-D-tmpl-010](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmpl/010.md) | 0.1 | metadata - Template | Template - early draft |
-| [2026-0001-D-tmpl-010](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmpl/010.md) | 0.1 | **AML Frontmatter Harmonisation Specification** | - |
+| [2026-0001-D-tmpl-010](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmpl/010.md) | 0.1 | **YAML Frontmatter Harmonisation Specification** | - |
 
 </div>
 
