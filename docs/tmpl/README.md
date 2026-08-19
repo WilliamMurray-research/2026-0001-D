@@ -22,6 +22,8 @@ Research Architect
 
 ---
 
+<div align="center">
+
 ## Directory Contents
 
 | **Document Ref** | **Version** | **Title** | **Description** |
@@ -36,6 +38,8 @@ Research Architect
 | [2026-0001-D-tmp-008](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/008.md) | 0.1 | Proof - Template | Template |
 | [2026-0001-D-tmp-009](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/009.md) | 0.1 | Specification - Template | Template |
 | [2026-0001-D-tmp-010](https://github.com/WilliamMurray-research/2026-0001-D/blob/main/docs/tmp/010.md) | 0.1 | metadata - Template | Template - early draft |
+
+</div>
 
 ---
 
