@@ -30,13 +30,13 @@
 
 ---
 
-## **Directory Contents**
-
-### **1. Repository Core**
+<div align="center">
 
 | **Document Ref** | **Version** | **Comments** | **Description** |
 | :--- | :--- | :--- | :--- |
 | `[REF-read-000]` | 1.0 | Root entry point | Primary repository overview and architectural guide |
+
+</div>
 
 
 ---
