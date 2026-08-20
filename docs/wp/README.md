@@ -2,7 +2,7 @@
 
 ---
 
-**CLASSIFICATION**: [A/B/C/D]  
+**CLASSIFICATION**: D   
 
 **Document Reference**: `2026-0001-D-wp-read-000`  
 # Whitepaper Asset Registry  
